@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    /* font-family: 'Ubuntu', sans-serif;  */
+    background: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Baloo Bhai ', cursive;
+}
+.left{
+    line-height: 19px;
+    font-size: 24px;
+    position: absolute;
+    top: -3px;
+    left: 28px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 110px;
+    filter: invert(100%);
+}
+.lop{
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 43%;
+    margin: 30px auto;
+    /* border: 2px solid rgb(166, 255, 0); */
+}
+.right{
+    position: absolute;
+    top: 43px;
+    right: 2px;
+     display: inline-block;   
+    /* border: 2px solid rgb(s38, 0, 255); */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 34px 24px;
+}
+.navbar li a:hover , .navbar li a:active {
+   /* border-bottom: 2px dotted white; */
+   text-decoration: underline;
+   color: rgb(155, 154, 154);
+   text-transform: bold;
+}
+.btn{
+    margin: 0px 8px;
+    font-size: 25px;
+    background-color: gray;
+    color: rgb(255, 253, 253);
+    padding: 4px 14px;
+    border: 2px solid rgb(196, 196, 196);
+    border-radius: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(10, 9, 9);
+}
+.container{
+    /* border: 2px solid rgb(175, 179, 174); */
+    margin: 177px 959px;
+    padding: 1px 78px;
+    width: 33%;
+    border-radius: 22px;
+}
+.from-group input{
+    text-align: center;
+    display: block;
+    width: 399px;
+    padding: 7px;
+    margin: 9px auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 25px;
+}
+.container button{
+    margin: 18px 94px;
+    width: 69%;
+
+}
+.container h1{
+    text-align: center;
+}
